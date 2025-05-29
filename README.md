@@ -22,3 +22,14 @@ chmod +x setwebperms.sh
 ```bash
 setwebperms.sh <directory>
 ```
+
+## Output
+
+After running, you will see:
+
+__Permissions set: 755 for directories, 644 for files in '<directory>'__
+
+## Notes
+
+You may need to run the script as **root** (with **sudo**) if you do not own the files/directories.
+This script is safe to use on typical static web content (HTML, CSS, JS, images, etc).
