@@ -27,7 +27,7 @@ setwebperms.sh <directory>
 
 After running, you will see:
 
-__Permissions set: 755 for directories, 644 for files in "<directory>"__
+__Permissions set: 755 for directories, 644 for files in <directory>__
 
 ## Notes
 
