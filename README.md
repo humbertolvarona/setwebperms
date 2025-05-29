@@ -11,8 +11,14 @@ This is commonly required for web servers (like Nginx or Apache) to ensure that:
 - No files are globally writable or executable.
 - All directories are accessible (can be listed and traversed).
 
-## Usage
+## Set permission
 
 ```bash
 chmod +x setwebperms.sh
-./setwebperms.sh <directory>
+```
+
+## Usage
+
+```bash
+setwebperms.sh <directory>
+```
